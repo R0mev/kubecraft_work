@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    method: fromcode
+    run: httpd-romev
+  name: httpd-romev
+spec:
+  containers:
+  - image: httpd
+    name: httpd-romev
